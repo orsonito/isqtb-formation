@@ -2,13 +2,13 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "My Next App",
-    short_name: "NextApp",
-    description: "My Next.js PWA",
+    name: "ISTQB Foundation Formation",
+    short_name: "ISTQB CTFL",
+    description: "Formation ISTQB CTFL v4.0 avec fiches, quiz et examen blanc",
     start_url: "/",
     display: "standalone",
-    background_color: "#ffffff",
-    theme_color: "#000000",
+    background_color: "#1e3a8a",
+    theme_color: "#1e40af",
     icons: [
       {
         src: "/icon-192.png",
@@ -23,7 +23,7 @@ export default function manifest(): MetadataRoute.Manifest {
         purpose: "any",
       },
       {
-        src: "/icon-512.png",
+        src: "/icon-maskable-512.png",
         sizes: "512x512",
         type: "image/png",
         purpose: "maskable",

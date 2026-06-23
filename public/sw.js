@@ -1,9 +1,12 @@
-const CACHE_NAME = "pwa-cache-v2";
+const CACHE_NAME = "pwa-cache-v3";
 const urlsToCache = [
   "/",
   "/manifest.webmanifest",
+  "/favicon-32.png",
+  "/apple-touch-icon.png",
   "/icon-192.png",
   "/icon-512.png",
+  "/icon-maskable-512.png",
 ];
 
 self.addEventListener("install", (event) => {
